@@ -1,0 +1,44 @@
+	
+.hours {
+	max-width: 50%;
+	margin: auto;
+	position: relative;
+	h1 {
+		text-align: center;
+	}
+	.day {
+		margin-bottom: 25px;
+	}
+	input[type=text] {
+		width: 75px;
+	}
+	p {
+		display: inline-block;
+		margin-top: 0;
+	}
+	h3 {
+		display: inline-block;
+	}
+	.time-input {
+		display: none;
+		vertical-align: top;
+		margin-bottom: 0;
+	}
+	.showSplit {
+		display: inline-block;
+	}
+	.split {
+		display: inline-block;
+	}
+	.warning {
+		border: 2px solid red;
+	}
+	.error, .overlap {
+		display: block;
+		color: red;
+	}
+
+	.hide {
+		display: none;
+	}
+}

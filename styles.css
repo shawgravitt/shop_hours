@@ -1,0 +1,54 @@
+/* line 2, styles.scss */
+.hours {
+  max-width: 50%;
+  margin: auto;
+  position: relative;
+}
+/* line 6, styles.scss */
+.hours h1 {
+  text-align: center;
+}
+/* line 9, styles.scss */
+.hours .day {
+  margin-bottom: 25px;
+}
+/* line 12, styles.scss */
+.hours input[type=text] {
+  width: 75px;
+}
+/* line 15, styles.scss */
+.hours p {
+  display: inline-block;
+  margin-top: 0;
+}
+/* line 19, styles.scss */
+.hours h3 {
+  display: inline-block;
+}
+/* line 22, styles.scss */
+.hours .time-input {
+  display: none;
+  vertical-align: top;
+  margin-bottom: 0;
+}
+/* line 27, styles.scss */
+.hours .showSplit {
+  display: inline-block;
+}
+/* line 30, styles.scss */
+.hours .split {
+  display: inline-block;
+}
+/* line 33, styles.scss */
+.hours .warning {
+  border: 2px solid red;
+}
+/* line 36, styles.scss */
+.hours .error, .hours .overlap {
+  display: block;
+  color: red;
+}
+/* line 41, styles.scss */
+.hours .hide {
+  display: none;
+}
